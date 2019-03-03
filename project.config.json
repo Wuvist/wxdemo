@@ -1,0 +1,24 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.0",
+	"projectname": "miniprogram-test-1",
+	"scripts": {
+		"beforeCompile": "npm run compile",
+		"beforePreview": "npm run compile",
+		"beforeUpload": "npm run compile"
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"appid": "wx39c86fd57640c728",
+	"condition": {}
+}
